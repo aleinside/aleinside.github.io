@@ -1,0 +1,69 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+@import "bootstrap/responsive.less";
+
+
+/* ===== Primary Styles ========================================================
+   Author: Alessandro Nuzzo <alessandro.nuzzo@heynet.it>
+   ========================================================================== */
+
+
+/** skills **/
+
+@skillSize: 18px;
+
+#skills {text-align:center;}
+#skills h3 {line-height:(@skillSize+4)*2}
+#skills h3 span a {text-decoration:none;padding:3px;}
+span.sk_xhtml a {color:@blue}
+span.sk_html5 a {color:@orange}
+span.sk_css a {color:@yellow}
+span.sk_xml a {color:@black}
+span.sk_javascript a {color:@red}
+span.sk_php a {background-color:@blue;color:@white;font-size:@skillSize+10}
+span.sk_sql a {color:@purple}
+span.sk_doctrine a {color:@black}
+span.sk_propel a {color:@black}
+span.sk_objectivec a {color:@blueDark;font-size:@skillSize+6}
+span.sk_ios a {color:@blueDark}
+span.sk_symfony a {background-color:@green;color:@white;font-size:@skillSize+8}
+span.sk_jquery a {color:@red}
+span.sk_oop a {color:@black}
+
+
+
+
+/** **/
+
+body {background: #eee url('img/background.png')}
+.row {margin-top: 40px;}
+
+#projects div h2 {text-align:center; margin-bottom:10px}
+
+hr.soften {
+  height: 1px;
+  margin: 24px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+/*.hero-unit p {font-family: 'Exo', sans-serif}*/
+h1, h2 {font-family: 'Kaushan Script', cursive;}
+
+.mypic {float:right;margin-left:30px;margin-right:10px;height:200px;/*border:1px solid @linkColor;*/margin-top:50px}
+
+#myCarousel {/*width:940px;*/margin:0 auto;}
+#myCarousel .carousel-inner {text-align:center}
+
+.modal-body h3 {color: @linkColor}
+
+.hero-unit h3 {margin-top: 40px}
+#twitter_update_list li {margin-bottom:5px;margin-left:10px;}
