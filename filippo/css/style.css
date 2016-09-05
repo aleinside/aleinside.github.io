@@ -3,6 +3,7 @@
 
 body {
 	overflow-x: hidden;
+	font-size: 15px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -39,6 +40,12 @@ p {
 hr {
 	border-top: 3px solid #eee;
 	margin: 30px 0;
+}
+
+.btn-warning {
+  color: #000000;
+  background-color: #ffeb00;
+  border-color: #f1a733;
 }
 
 /* ROWS
@@ -136,21 +143,21 @@ footer .row {
 ==================================================================*/
 
 .background1 {
-	background-color: #e75d5d;
+	background-color: #afdafc; /* #e75d5d; */
 }
 
 .background2 {
-	background-color: #f1a733;
+	background-color: #ffeb00; /* #f1a733; */
 }
 
 .background3 {
-	background-color: #5eb28f;
+	background-color: #afdafc; /* #5eb28f; */
 }
 
 .background,
 .background h2,
 .background h3 {
-	color: #fff;	
+	color: #fff;
 }
 
 .background-image {
@@ -363,7 +370,7 @@ header h1 {
 }
 
 .entry-meta span {
-	padding-right: 15px;	
+	padding-right: 15px;
 }
 
 .entry-meta i {
